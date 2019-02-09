@@ -1,0 +1,12 @@
+<!-- <mat-card>
+  <div class="header-div">
+    <p>Movie Details</p>
+  </div>
+</mat-card> -->
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>Movie Details</span>
+      <span class="example-spacer"></span>
+      <mat-slide-toggle [checked]="isDarkTheme | async" (change)="toggleDarkTheme($event.checked)">Dark theme</mat-slide-toggle>
+    </mat-toolbar-row>
+  </mat-toolbar>

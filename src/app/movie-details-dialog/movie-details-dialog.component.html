@@ -1,0 +1,18 @@
+<h2 mat-dialog-title>Movie Details</h2>
+<mat-dialog-content>
+        <p><strong>Movie Title </strong>{{data.movie_title}}</p>
+        <p><strong>Director Name </strong>{{data.director_name}}</p>
+        <p><strong>First Actor Name </strong>{{data.actor_1_name}}</p>
+        <p><strong>Second Actor Name </strong>{{data.actor_2_name}}</p>
+        <p><strong>Genres </strong>{{data.genres}}</p>
+        <p><strong>Language </strong>{{data.language}}</p>
+        <p><strong>Country </strong>{{data.country}}</p>
+        <p><strong>Content Rating </strong>{{data.content_rating}}</p>
+        <p><strong>Budget </strong>{{data.budget}}</p>
+        <p><strong>Title Year </strong>{{data.title_year}}</p>
+        <p><strong>Plot Keywords </strong>{{data.plot_keywords}}</p>
+        <p><strong>imdb link </strong><a href="{{data.movie_imdb_link}}">{{data.movie_imdb_link}}</a></p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-raised-button mat-dialog-close>Ok</button>
+</mat-dialog-actions>
